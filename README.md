@@ -8,9 +8,7 @@ An interactive path finding visualizer built with React and JavaScript. Visualiz
   - Breadth-First Search (BFS)
   - Depth-First Search (DFS)
   - Dijkstra's Algorithm
-  - A* (A-Star)
-  - Greedy Best-First Search
-  - Bidirectional Search
+  - A* (A-Star) 
 
 - **Interactive Grid**:
   - Click to set start point (green)
@@ -49,8 +47,7 @@ path-finding-visualizer/
 │   │   ├── dfs.js         # Depth-first search
 │   │   ├── dijkstra.js    # Dijkstra's algorithm
 │   │   ├── astar.js       # A* algorithm
-│   │   ├── greedy.js      # Greedy best-first
-│   │   └── bidirectional.js # Bidirectional search
+│   │   
 │   ├── utils/
 │   │   ├── grid.js        # Grid operations
 │   │   ├── heuristics.js  # Heuristic functions
@@ -107,8 +104,6 @@ npm run preview
 - **DFS**: Explores deeply before backtracking, simple but not optimal
 - **Dijkstra**: Finds shortest path with weighted edges, slower than A*
 - **A***: Heuristic-based search, fastest for most cases
-- **Greedy**: Fast but not guaranteed shortest path
-- **Bidirectional**: Searches from start and end simultaneously
 
 ## License
 
